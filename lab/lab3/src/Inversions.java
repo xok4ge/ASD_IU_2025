@@ -18,7 +18,7 @@ public class Inversions {
 
         Utils.zeroInvers();
         Utils.mergeSort(numsList);
-        System.out.println(Utils.inversions);
+        System.out.println("Inversions count: " + Utils.inversions);
     }
 
     public static int[] toIntList(ArrayList<Integer> nums) {
